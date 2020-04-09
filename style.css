@@ -1,0 +1,172 @@
+ body,
+ html {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 700;
+ }
+ 
+ .topnav {
+     font-size: 16px; 
+     color: black;
+     
+ }
+ 
+ .lead {
+     font-size: 18px;
+     font-weight: 400;
+ }
+ 
+ .intro-header {
+     padding-top: 50px;
+     padding-bottom: 80px;
+     text-align: center;
+     color: white;
+     background-image: url('./img/landscape.jpg');
+     background-repeat: no-repeat;
+     background-position:  center;
+     background-size: cover;
+ }
+
+ #gitlink{
+     width: 48px;
+     height: 48px;
+     border-radius: 50%;
+ }
+ #gitlink:hover{
+    width: 50px;
+    height: 50px;
+}
+ 
+ .intro-message {
+     position: relative;
+     padding-top: 20%;
+     padding-bottom: 20%;
+ }
+ 
+ .intro-message > h1 {
+     margin: 0;
+     text-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
+     font-size: 5em;
+ }
+ 
+ .intro-divider {
+     width: 400px;
+     border-top: 1px solid #f8f8f8;
+     border-bottom: 1px solid rgba(0,0,0,0.2);
+ }
+ 
+ .intro-message > h3 {
+     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+ }
+ 
+ 
+ .network-name {
+     text-transform: uppercase;
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 2px;
+ }
+ 
+ .content-section-a {
+     padding: 50px 0;
+     background-color: #f8f8f8;
+ }
+ 
+ 
+ .content1 {
+     margin-top: 30px;
+ }
+ 
+ 
+ .content2 {
+     border: 1px solid #f8f8f8;
+ }
+ 
+ 
+ 
+ .content-section-b {
+     padding: 50px 0;
+     border-top: 1px solid #e7e7e7;
+     border-bottom: 1px solid #e7e7e7;
+ }
+ 
+ .section-heading {
+     margin-bottom: 30px;
+ }
+ 
+ .section-heading-spacer1{
+     float: center;
+     width: 200px;
+     border-top: 3px solid #e7e7e7;
+ }
+ 
+ .section-heading-spacer2{
+     float: right;
+     width: 200px;
+     opacity: 0;
+ }
+ 
+ .banner {
+     padding: 20px 0;
+     color: #f8f8f8;
+ }
+ 
+ .banner h2 {
+     margin: 0;
+     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+     font-size: 3em;
+ }
+ 
+ .banner ul {
+     margin-bottom: 0;
+ }
+ 
+ .banner-social-buttons {
+     float: right;
+     margin-top: 0;
+ }
+ 
+ .button .btn {
+     background-color: #f8f8f8;
+ }
+ 
+ .content3{
+     background-color: rgba(248,248,248, 0.6);
+     border-radius: .5em;
+     padding: 1em;
+     color: #000000;
+ }
+ 
+ footer {
+     padding: 50px 0;
+     background-color: #e3f2fd;
+ }
+ 
+ p.copyright {
+     margin: 15px 0 0;
+ }
+ 
+ .thumbnail {
+     border: 3px solid #ddd;
+     size: 25%;
+ }
+ 
+ .img-responsive {
+     border-radius: 10px;
+ }
+ 
+ .font {
+     font-size: 16px;
+ }
+
+
