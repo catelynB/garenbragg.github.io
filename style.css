@@ -7,12 +7,23 @@
  body,
  h1,
  h2,
- h3,
  h4,
- h5,
  h6 {
      font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
      font-weight: 700;
+ }
+
+ h5 {
+     color: #F1DAC4;
+     padding-bottom: 10px;
+     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 700;
+ }
+ h3 {
+     font-size: 48px;
+     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-weight: 700;
+     color: #F1DAC4;
  }
  
  .topnav {
@@ -30,8 +41,8 @@
      padding-top: 50px;
      padding-bottom: 80px;
      text-align: center;
-     color: white;
-     background-image: url('./img/landscape.jpg');
+     color: #F1DAC4;
+     background-image: url('./img/header.jpg');
      background-repeat: no-repeat;
      background-position:  center;
      background-size: cover;
@@ -61,8 +72,8 @@
  
  .intro-divider {
      width: 400px;
-     border-top: 1px solid #f8f8f8;
-     border-bottom: 1px solid rgba(0,0,0,0.2);
+     border-top: 3px solid #F26419;
+     border-bottom: 2px solid rgba(0,0,0,0.2);
  }
  
  .intro-message > h3 {
@@ -79,7 +90,7 @@
  
  .content-section-a {
      padding: 50px 0;
-     background-color: #f8f8f8;
+     background-color: #f1dac4;
  }
  
  
@@ -92,22 +103,30 @@
      border: 1px solid #f8f8f8;
  }
  
- 
+.col-sm-4{
+    padding-bottom: 25px;
+}
+
+ .img-thumbnail{
+     background-color: #F26419;
+ }
  
  .content-section-b {
      padding: 50px 0;
-     border-top: 1px solid #e7e7e7;
-     border-bottom: 1px solid #e7e7e7;
+     border-top: 1px solid #F26419;
+     border-bottom: 1px solid #F26419;
+     background-color: #A69CAC;
  }
  
  .section-heading {
      margin-bottom: 30px;
+     color: #114B5F;
  }
  
  .section-heading-spacer1{
      float: center;
      width: 200px;
-     border-top: 3px solid #e7e7e7;
+     border-top: 3px solid #114B5F;
  }
  
  .section-heading-spacer2{
@@ -137,7 +156,7 @@
  }
  
  .button .btn {
-     background-color: #f8f8f8;
+     background-color: #f1dac4;
  }
  
  .content3{
